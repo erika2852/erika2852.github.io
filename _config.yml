@@ -18,7 +18,7 @@ timezone: Asia/Seoul
 
 title: 오지우 # the main title
 
-tagline: 프로그래밍, 네트워크, 취미 # it will display as the sub-title
+tagline: 프로그래밍, 네트워크, 취미 #래ㅐ it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -46,7 +46,7 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: # fill in to your verification string
+google_site_verification: zYWImZhhL2TL0fbNm5XjDcMazOtQK7UNy4o_Es7VG4A
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
