@@ -19,9 +19,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 오지우 # the main title
+title: オジウのBlog # the main title
 
-tagline: 프로그래밍, 네트워크, 취미 #래ㅐ it will display as the sub-title
+tagline: プログラミング, セキュリティ, 趣味 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
