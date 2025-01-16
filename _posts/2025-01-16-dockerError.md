@@ -5,8 +5,6 @@ tags: [docker,mac]
 pin: true
 ---
 
-# Dockerエラー「docker.appを開くとコンピュータが破損します」[MAC]
-
 MACを再起動したら「docker.appを開くとコンピュータが破損します」エラーが出た。
 
 
@@ -27,7 +25,7 @@ docker.appを開くとコンピュータが破損します
 6. 新しい`docker.app`をダウンロードしてインストール
 [Docker公式サイト](https://www.docker.com/ja-jp/get-started/)
 
-## 追加エラー
+## 他のエラー
 
 ```bash
 com.docker.vmnetdを開くとコンピューターが破損します。ゴミ箱に入れる必要があります
