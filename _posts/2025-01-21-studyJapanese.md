@@ -1,5 +1,5 @@
 ---
-title: 기사로 일본어 공부 - 1
+title: 기사로 일본어 공부 (1)
 categories: [일본어]
 tags: [일본어]
 pin: false
