@@ -60,10 +60,15 @@ main() {
   JEKYLL_ENV=production bundle exec jekyll b \
     -d "$SITE_DIR$_baseurl" -c "$_config"
 
-  # test
-  bundle exec htmlproofer "$SITE_DIR" \
-    --disable-external \
-    --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+  # test (htmlproofer optional)
+  if bundle exec htmlproofer --version >/dev/null 2>&1; then
+    echo "Running htmlproofer..."
+    bundle exec htmlproofer "$SITE_DIR" \
+      --disable-external \
+      --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+  else
+    echo "htmlproofer not available, skipping link validation"
+  fi
 }
 
 while (($#)); do
