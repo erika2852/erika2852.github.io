@@ -57,6 +57,15 @@ google_site_verification: zYWImZhhL2TL0fbNm5XjDcMazOtQK7UNy4o_Es7VG4A
 google_analytics:
   id: siro28528593@gmail.com
 
+# GoatCounter (Chirpy 기본 조회수 표시)
+analytics:
+  goatcounter:
+    id: "siro2852"
+
+# 조회수 표시 설정 (Chirpy 기본 기능)
+pageviews:
+  provider: goatcounter
+
 # Prefer color scheme setting.
 #
 # Note: Keep empty will follow the system prefer color by default,
