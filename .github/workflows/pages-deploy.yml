@@ -50,17 +50,6 @@ jobs:
         env:
           JEKYLL_ENV: "production"
 
-      - name: Copy all missing assets
-        run: |
-          # Copy all missing image files from assets/img to _site/assets/img
-          find assets/img -type f \( -name "*.jpg" -o -name "*.png" -o -name "*.gif" -o -name "*.jpeg" -o -name "*.webp" \) | while read file; do
-            site_file="_site/$file"
-            if [ ! -f "$site_file" ]; then
-              echo "Copying missing asset: $file"
-              cp "$file" "$site_file"
-            fi
-          done
-
       - name: Test site
         run: |
           bundle exec htmlproofer _site \
