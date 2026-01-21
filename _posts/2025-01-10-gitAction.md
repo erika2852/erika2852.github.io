@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CursorでSpeckitを使ってみた - GitHub公式の仕様駆動開発ツール"
-date: 2026-01-10 10:00:00 +0900
+date: 2025-01-10 10:00:00 +0900
 categories: [開発ツール, AI]
 tags: [Speckit, Cursor, GitHub, AI開発, 仕様駆動開発]
 pin: true
